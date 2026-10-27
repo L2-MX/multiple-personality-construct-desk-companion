@@ -1,0 +1,7 @@
+.env
+claudesetup.txt
+.venv/
+__pycache__/
+*.py[cod]
+*.mp3
+yolo11n.pt
