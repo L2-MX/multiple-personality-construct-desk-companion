@@ -122,9 +122,8 @@ def run_vision():
 
                 
 
-                response = think(message, recent_events)
                 print("Sending to AI:", message)
-                print(response)
+                response = think(message, recent_events)
 
                 # remember this event
                 recent_events.append(message)
