@@ -36,9 +36,9 @@ Under the hood, a webcam feeds a YOLO11 object detector; a filtering layer turns
 ## System Architecture
 
 ```
- Webcam
-   │
-   ▼
+           Webcam
+             │
+             ▼
 ┌──────────────────────────┐
 │ vision.py                │  YOLO11 detection → stability filter
 │ (perception)             │  → detects "new" / "removed" objects
